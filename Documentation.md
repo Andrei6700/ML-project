@@ -2,20 +2,22 @@ Aceasta documentatie consta in intrebari "generale" din materia ML.
 ### Ce este invatarea automata supervizata?
 Invatarea automata supervizata presupune construirea unui model sau a unei functii ce trebuie antrenat, folosind un set de antrenament, pentru a face predicitii corecte.
 
-### Cum recunosti problema de invatare automata supervizata?
-Problema poate fi rezolvata cu una dintre tipurile de mai jos:
+### Tipurile de invatare automata supervizata?
+Tipurile de invatare automata supervizata sunt urmatoarele: 
 
 - **Regresie**: consta in construirea unei functii continue.
   - Exemple:
     - pretul unei case
     - temperatura intr-o zi
-  - Y: valori numerice
+
+  Y: valori numerice
 
 - **Clasificare**: consta in construirea unei functii discontinue.
   - Exemple:
     - [da; nu]
     - [pisica; caine]
-  - Y: sunt categorii
+      
+ Y: sunt categorii
 
 ### Exemple de probleme
 - **Probleme de clasificare**:
@@ -34,7 +36,8 @@ Invatarea automata nesupervizata presupune construirea unui model fara a folosi 
 ### Cum recunosti problema de invatare automata nesupervizata?
 Nu exista seturi de iesire etichetate.
 
-Problema poate fi rezolvata cu una dintre tipurile de mai jos:
+### Tipurile de invatare automata nesupervizata?
+Tipurile de invatare automata nesupervizata sunt urmatoarele: 
 - **Clustering**: consta in gasirea unor structuri intr-un set de date neetichetat.
 - **Reducerea dimensionalitatii**: consta in reducerea numarului de atribute dintr-un set de date, pastrand cat mai mult posibil informatia.
 
@@ -83,7 +86,7 @@ Intr-un set de date cu pacienti, functia construita diagnosticheaza corect un pa
 ---
 
 ### Ce e aia o ipoteza?
-`Ipoteza` reprezinta o aproximatie a functiei target.
+**Ipoteza** reprezinta o aproximatie a functiei target.
 
 ### Exemple de probleme cu ipoteza
 Intr-un set de date cu pacienti, ipoteza poate reprezenta o formula temporara pentru calcularea nivelului de stres.
@@ -91,7 +94,7 @@ Intr-un set de date cu pacienti, ipoteza poate reprezenta o formula temporara pe
 ---
 
 ### Ce e aia o Multime de antrenament?
-`Multime de antrenament` este un set de date pentru a antrena modelul si contine atat datele de intrare cat si de iesire.
+**Multime de antrenament** este un set de date pentru a antrena modelul si contine atat datele de intrare cat si de iesire.
 
 ### Exemple de probleme cu Multime de antrenament
 Intr-un set de date cu pacienti, multimea de antrenament reprezinta pacienti deja examinati.
@@ -99,7 +102,7 @@ Intr-un set de date cu pacienti, multimea de antrenament reprezinta pacienti dej
 ---
 
 ### Ce e ala zgomot?
-`Zgomot-ul` sunt erorile sau datele irelevante (eronate) dintr-un set de date.
+**Zgomot-ul** sunt erorile sau datele irelevante (eronate) dintr-un set de date.
 
 ### Tipuri de zgomot
 - **Zgomot in atribute**: Se refera la instantele dintr-un set de intrari ce contin valori eronate la anumite atribute.
