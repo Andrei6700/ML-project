@@ -132,14 +132,16 @@ Evaluarea unui model presupune măsurarea performanței acestuia pe un set de da
 
 ---
 ###  Ce e aia Precizie ?
- **Precizia** : True pozitive / True pozitive + False pozitive;
- Precizia ne ajuta sa aflam din toate cazurile pozitive cate sunt cu adevarat pozitive. 
+ **Precizia** :ne ajuta sa aflam din toate cazurile pozitive cate sunt cu adevarat pozitive. 
+
+![alt text](image-2.png)
 
 ---
 
 ### Ce e ala Recall
- **Recall**: True pozitive / True pozitive + False negativ;
-    Recall-ul ne ajuta sa aflam cat de multe instante pozitive au fost identificate ca si corecte de catre model. 
+ **Recall**:  ne ajuta sa aflam cat de multe instante pozitive au fost identificate ca si corecte de catre model. 
+
+![alt text](image-3.png)
 
 ---
 ###  Ce e aia Acuratete ?
